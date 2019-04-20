@@ -34,6 +34,13 @@ requests (https://pypi.python.org/pypi/requests/2.18.4)
 plexapi (https://pypi.python.org/pypi/PlexAPI/3.0.6)
 progress (https://pypi.python.org/pypi/progress)
 
+### MacOS Specific 
+
+Install required libararies 
+  sudo pip3 install progress plexapi requests
+Execute
+  python3 collection_updater.py
+
 ## Requirements
 
 Python (tested with 3.6.3)
