@@ -150,7 +150,7 @@ def main():
 
             if tmdb_col_dict['name'] != plex_col_title and tmdb_col_dict['name'] + ' Collection' != plex_col_title:
                 print('  Invalid collection, does not match with the TMDB collection: %s' % tmdb_col_dict['name'])
-                
+
                 err_list.append('\r\n> %s' % plex_col_title)
                 err_list.append('  Invalid collection, does not match with the TMDB collection: %s' % tmdb_col_dict['name'])
                 continue
